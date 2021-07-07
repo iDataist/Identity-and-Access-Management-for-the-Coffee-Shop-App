@@ -1,0 +1,12 @@
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [07/Jul/2021 17:25:28] "[37mGET /drinks HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jul/2021 17:25:29] "[37mGET /drinks-detail HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jul/2021 17:25:29] "[37mPOST /drinks HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jul/2021 17:25:29] "[37mPATCH /drinks/2 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jul/2021 17:25:29] "[37mDELETE /drinks/1 HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [07/Jul/2021 17:29:05] "[37mGET /drinks HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jul/2021 17:29:06] "[37mGET /drinks-detail HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jul/2021 17:29:06] "[31m[1mPOST /drinks HTTP/1.1[0m" 403 -
+INFO:werkzeug:127.0.0.1 - - [07/Jul/2021 17:29:06] "[31m[1mPATCH /drinks/2 HTTP/1.1[0m" 403 -
+INFO:werkzeug:127.0.0.1 - - [07/Jul/2021 17:29:06] "[31m[1mDELETE /drinks/1 HTTP/1.1[0m" 403 -
