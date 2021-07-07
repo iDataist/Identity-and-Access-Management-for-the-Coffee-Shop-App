@@ -9,13 +9,6 @@ In this project, I built the backend for a coffee shop application. I added user
 - Allow the shop managers to create new drinks and edit existing
 drinks.
 
-
-- Implementing authentication and authorization in Flask 
-- Designing against key security principles
-- Implementing role-based control design patterns
-- Securing a REST API
-- Applying software system risk and compliance principles
-
 ## Tech Stack (Dependencies)
 ### Backend
 
