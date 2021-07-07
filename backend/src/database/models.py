@@ -38,9 +38,7 @@ def db_drop_and_create_all():
         title='water',
         recipe='[{"name": "water", "color": "blue", "parts": 1}]'
     )
-
-
-drink.insert()
+    drink.insert()
 # ROUTES
 
 '''

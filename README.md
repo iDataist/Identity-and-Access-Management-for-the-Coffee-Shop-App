@@ -1,4 +1,4 @@
-# Coffee Shop Full Stack
+# Identity and Access Management for the Coffee Shop App
 
 ## Full Stack Nano - IAM Final Project
 
