@@ -11,7 +11,6 @@ drinks.
 
 ## Tech Stack (Dependencies)
 ### Backend
-
 The `./backend` directory contains a Flask server with the following dependencies:
 
 - Python 3.7: Follow instructions to install the latest version of python for your platform in the [python docs](https://docs.python.org/3/using/unix.html#getting-and-installing-the-latest-version-of-python)
@@ -45,6 +44,14 @@ The `./frontend` directory contains a Ionic frontend with the following dependen
     ```
 
 ## Getting Started
+### Backend
+From within the `./src` directory first ensure you are working using your created virtual environment. Each time you open a new terminal session, run:
+
+```bash
+export FLASK_APP=api.py
+cd backend/src
+flask run --reload
+```
 ### Setup Auth0
 1. Create a new Auth0 Account
 2. Select a unique tenant domain
@@ -66,25 +73,12 @@ The `./frontend` directory contains a Ionic frontend with the following dependen
 7. Test your endpoints with [Postman](https://getpostman.com).
    - Register 2 users - assign the Barista role to one and Manager role to the other.
    - Sign into each account and make note of the JWT.
-   - Import the postman collection `./starter_code/backend/coffee_shop.postman_collection.json`
-   - Right-clicking the collection folder for barista and manager, navigate to the authorization tab, and including the JWT in the token field.
-   - Run the collection and correct any errors.
-### Backend
-From within the `./src` directory first ensure you are working using your created virtual environment.
+   - Import the postman collection `./backend/coffee_shop.postman_collection.json`
+   - Right-clicking the collection folder for barista and manager, navigate to the authorization tab, and including the JWT in the token field. Then run the tests.
 
-Each time you open a new terminal session, run:
-
-```bash
-export FLASK_APP=api.py;
-```
-
-To run the server, execute:
-
-```bash
-flask run --reload
-```
-
-The `--reload` flag will detect file changes and restart the server automatically.
+      ![](backend/public.png)
+      ![](backend/barista.png)
+      ![](backend/manager.png)
 ### Frontend
 - Configure Environment Variables: Ionic uses a configuration file to manage environment variables. These variables ship with the transpiled software and should not include secrets. Open `./src/environments/environments.ts` and ensure each variable reflects the system you stood up for the backend.
 
